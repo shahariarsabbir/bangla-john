@@ -1,0 +1,692 @@
+[
+  {
+    "id": 1,
+    "name": "Electronics Product 1",
+    "category": "Electronics",
+    "brand": "TechNova",
+    "price": 23.49,
+    "discountPrice": 21.19,
+    "currency": "USD",
+    "stock": 51,
+    "rating": 4.1,
+    "reviews": 107,
+    "description": "High-quality electronics product suitable for everyday use.",
+    "image": "/images/products/product-1.jpg",
+    "gallery": [
+      "/images/products/product-1-1.jpg",
+      "/images/products/product-1-2.jpg"
+    ],
+    "tags": [
+      "electronics",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 2,
+    "name": "Fashion Product 2",
+    "category": "Fashion",
+    "brand": "UrbanWear",
+    "price": 26.99,
+    "discountPrice": 24.39,
+    "currency": "USD",
+    "stock": 52,
+    "rating": 4.2,
+    "reviews": 114,
+    "description": "High-quality fashion product suitable for everyday use.",
+    "image": "/images/products/product-2.jpg",
+    "gallery": [
+      "/images/products/product-2-1.jpg",
+      "/images/products/product-2-2.jpg"
+    ],
+    "tags": [
+      "fashion",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 3,
+    "name": "Home Product 3",
+    "category": "Home",
+    "brand": "HomeEase",
+    "price": 30.49,
+    "discountPrice": 27.59,
+    "currency": "USD",
+    "stock": 53,
+    "rating": 4.3,
+    "reviews": 121,
+    "description": "High-quality home product suitable for everyday use.",
+    "image": "/images/products/product-3.jpg",
+    "gallery": [
+      "/images/products/product-3-1.jpg",
+      "/images/products/product-3-2.jpg"
+    ],
+    "tags": [
+      "home",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "Sports Product 4",
+    "category": "Sports",
+    "brand": "FitPro",
+    "price": 33.99,
+    "discountPrice": 30.79,
+    "currency": "USD",
+    "stock": 54,
+    "rating": 4.4,
+    "reviews": 128,
+    "description": "High-quality sports product suitable for everyday use.",
+    "image": "/images/products/product-4.jpg",
+    "gallery": [
+      "/images/products/product-4-1.jpg",
+      "/images/products/product-4-2.jpg"
+    ],
+    "tags": [
+      "sports",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Books Product 5",
+    "category": "Books",
+    "brand": "ReadWell",
+    "price": 37.49,
+    "discountPrice": 33.99,
+    "currency": "USD",
+    "stock": 55,
+    "rating": 4.5,
+    "reviews": 135,
+    "description": "High-quality books product suitable for everyday use.",
+    "image": "/images/products/product-5.jpg",
+    "gallery": [
+      "/images/products/product-5-1.jpg",
+      "/images/products/product-5-2.jpg"
+    ],
+    "tags": [
+      "books",
+      "popular"
+    ],
+    "featured": true
+  },
+  {
+    "id": 6,
+    "name": "Beauty Product 6",
+    "category": "Beauty",
+    "brand": "GlowCo",
+    "price": 40.99,
+    "discountPrice": 37.19,
+    "currency": "USD",
+    "stock": 56,
+    "rating": 4.6,
+    "reviews": 142,
+    "description": "High-quality beauty product suitable for everyday use.",
+    "image": "/images/products/product-6.jpg",
+    "gallery": [
+      "/images/products/product-6-1.jpg",
+      "/images/products/product-6-2.jpg"
+    ],
+    "tags": [
+      "beauty",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Electronics Product 7",
+    "category": "Electronics",
+    "brand": "TechNova",
+    "price": 44.49,
+    "discountPrice": 40.39,
+    "currency": "USD",
+    "stock": 57,
+    "rating": 4.7,
+    "reviews": 149,
+    "description": "High-quality electronics product suitable for everyday use.",
+    "image": "/images/products/product-7.jpg",
+    "gallery": [
+      "/images/products/product-7-1.jpg",
+      "/images/products/product-7-2.jpg"
+    ],
+    "tags": [
+      "electronics",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Fashion Product 8",
+    "category": "Fashion",
+    "brand": "UrbanWear",
+    "price": 47.99,
+    "discountPrice": 43.59,
+    "currency": "USD",
+    "stock": 58,
+    "rating": 4.8,
+    "reviews": 156,
+    "description": "High-quality fashion product suitable for everyday use.",
+    "image": "/images/products/product-8.jpg",
+    "gallery": [
+      "/images/products/product-8-1.jpg",
+      "/images/products/product-8-2.jpg"
+    ],
+    "tags": [
+      "fashion",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Home Product 9",
+    "category": "Home",
+    "brand": "HomeEase",
+    "price": 51.49,
+    "discountPrice": 46.79,
+    "currency": "USD",
+    "stock": 59,
+    "rating": 4.9,
+    "reviews": 163,
+    "description": "High-quality home product suitable for everyday use.",
+    "image": "/images/products/product-9.jpg",
+    "gallery": [
+      "/images/products/product-9-1.jpg",
+      "/images/products/product-9-2.jpg"
+    ],
+    "tags": [
+      "home",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "Sports Product 10",
+    "category": "Sports",
+    "brand": "FitPro",
+    "price": 54.99,
+    "discountPrice": 49.99,
+    "currency": "USD",
+    "stock": 60,
+    "rating": 4.0,
+    "reviews": 170,
+    "description": "High-quality sports product suitable for everyday use.",
+    "image": "/images/products/product-10.jpg",
+    "gallery": [
+      "/images/products/product-10-1.jpg",
+      "/images/products/product-10-2.jpg"
+    ],
+    "tags": [
+      "sports",
+      "popular"
+    ],
+    "featured": true
+  },
+  {
+    "id": 11,
+    "name": "Books Product 11",
+    "category": "Books",
+    "brand": "ReadWell",
+    "price": 58.49,
+    "discountPrice": 53.19,
+    "currency": "USD",
+    "stock": 61,
+    "rating": 4.1,
+    "reviews": 177,
+    "description": "High-quality books product suitable for everyday use.",
+    "image": "/images/products/product-11.jpg",
+    "gallery": [
+      "/images/products/product-11-1.jpg",
+      "/images/products/product-11-2.jpg"
+    ],
+    "tags": [
+      "books",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 12,
+    "name": "Beauty Product 12",
+    "category": "Beauty",
+    "brand": "GlowCo",
+    "price": 61.99,
+    "discountPrice": 56.39,
+    "currency": "USD",
+    "stock": 62,
+    "rating": 4.2,
+    "reviews": 184,
+    "description": "High-quality beauty product suitable for everyday use.",
+    "image": "/images/products/product-12.jpg",
+    "gallery": [
+      "/images/products/product-12-1.jpg",
+      "/images/products/product-12-2.jpg"
+    ],
+    "tags": [
+      "beauty",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 13,
+    "name": "Electronics Product 13",
+    "category": "Electronics",
+    "brand": "TechNova",
+    "price": 65.49,
+    "discountPrice": 59.59,
+    "currency": "USD",
+    "stock": 63,
+    "rating": 4.3,
+    "reviews": 191,
+    "description": "High-quality electronics product suitable for everyday use.",
+    "image": "/images/products/product-13.jpg",
+    "gallery": [
+      "/images/products/product-13-1.jpg",
+      "/images/products/product-13-2.jpg"
+    ],
+    "tags": [
+      "electronics",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 14,
+    "name": "Fashion Product 14",
+    "category": "Fashion",
+    "brand": "UrbanWear",
+    "price": 68.99,
+    "discountPrice": 62.79,
+    "currency": "USD",
+    "stock": 64,
+    "rating": 4.4,
+    "reviews": 198,
+    "description": "High-quality fashion product suitable for everyday use.",
+    "image": "/images/products/product-14.jpg",
+    "gallery": [
+      "/images/products/product-14-1.jpg",
+      "/images/products/product-14-2.jpg"
+    ],
+    "tags": [
+      "fashion",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 15,
+    "name": "Home Product 15",
+    "category": "Home",
+    "brand": "HomeEase",
+    "price": 72.49,
+    "discountPrice": 65.99,
+    "currency": "USD",
+    "stock": 65,
+    "rating": 4.5,
+    "reviews": 205,
+    "description": "High-quality home product suitable for everyday use.",
+    "image": "/images/products/product-15.jpg",
+    "gallery": [
+      "/images/products/product-15-1.jpg",
+      "/images/products/product-15-2.jpg"
+    ],
+    "tags": [
+      "home",
+      "popular"
+    ],
+    "featured": true
+  },
+  {
+    "id": 16,
+    "name": "Sports Product 16",
+    "category": "Sports",
+    "brand": "FitPro",
+    "price": 75.99,
+    "discountPrice": 69.19,
+    "currency": "USD",
+    "stock": 66,
+    "rating": 4.6,
+    "reviews": 212,
+    "description": "High-quality sports product suitable for everyday use.",
+    "image": "/images/products/product-16.jpg",
+    "gallery": [
+      "/images/products/product-16-1.jpg",
+      "/images/products/product-16-2.jpg"
+    ],
+    "tags": [
+      "sports",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 17,
+    "name": "Books Product 17",
+    "category": "Books",
+    "brand": "ReadWell",
+    "price": 79.49,
+    "discountPrice": 72.39,
+    "currency": "USD",
+    "stock": 67,
+    "rating": 4.7,
+    "reviews": 219,
+    "description": "High-quality books product suitable for everyday use.",
+    "image": "/images/products/product-17.jpg",
+    "gallery": [
+      "/images/products/product-17-1.jpg",
+      "/images/products/product-17-2.jpg"
+    ],
+    "tags": [
+      "books",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 18,
+    "name": "Beauty Product 18",
+    "category": "Beauty",
+    "brand": "GlowCo",
+    "price": 82.99,
+    "discountPrice": 75.59,
+    "currency": "USD",
+    "stock": 68,
+    "rating": 4.8,
+    "reviews": 226,
+    "description": "High-quality beauty product suitable for everyday use.",
+    "image": "/images/products/product-18.jpg",
+    "gallery": [
+      "/images/products/product-18-1.jpg",
+      "/images/products/product-18-2.jpg"
+    ],
+    "tags": [
+      "beauty",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 19,
+    "name": "Electronics Product 19",
+    "category": "Electronics",
+    "brand": "TechNova",
+    "price": 86.49,
+    "discountPrice": 78.79,
+    "currency": "USD",
+    "stock": 69,
+    "rating": 4.9,
+    "reviews": 233,
+    "description": "High-quality electronics product suitable for everyday use.",
+    "image": "/images/products/product-19.jpg",
+    "gallery": [
+      "/images/products/product-19-1.jpg",
+      "/images/products/product-19-2.jpg"
+    ],
+    "tags": [
+      "electronics",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 20,
+    "name": "Fashion Product 20",
+    "category": "Fashion",
+    "brand": "UrbanWear",
+    "price": 89.99,
+    "discountPrice": 81.99,
+    "currency": "USD",
+    "stock": 70,
+    "rating": 4.0,
+    "reviews": 240,
+    "description": "High-quality fashion product suitable for everyday use.",
+    "image": "/images/products/product-20.jpg",
+    "gallery": [
+      "/images/products/product-20-1.jpg",
+      "/images/products/product-20-2.jpg"
+    ],
+    "tags": [
+      "fashion",
+      "popular"
+    ],
+    "featured": true
+  },
+  {
+    "id": 21,
+    "name": "Home Product 21",
+    "category": "Home",
+    "brand": "HomeEase",
+    "price": 93.49,
+    "discountPrice": 85.19,
+    "currency": "USD",
+    "stock": 71,
+    "rating": 4.1,
+    "reviews": 247,
+    "description": "High-quality home product suitable for everyday use.",
+    "image": "/images/products/product-21.jpg",
+    "gallery": [
+      "/images/products/product-21-1.jpg",
+      "/images/products/product-21-2.jpg"
+    ],
+    "tags": [
+      "home",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 22,
+    "name": "Sports Product 22",
+    "category": "Sports",
+    "brand": "FitPro",
+    "price": 96.99,
+    "discountPrice": 88.39,
+    "currency": "USD",
+    "stock": 72,
+    "rating": 4.2,
+    "reviews": 254,
+    "description": "High-quality sports product suitable for everyday use.",
+    "image": "/images/products/product-22.jpg",
+    "gallery": [
+      "/images/products/product-22-1.jpg",
+      "/images/products/product-22-2.jpg"
+    ],
+    "tags": [
+      "sports",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 23,
+    "name": "Books Product 23",
+    "category": "Books",
+    "brand": "ReadWell",
+    "price": 100.49,
+    "discountPrice": 91.59,
+    "currency": "USD",
+    "stock": 73,
+    "rating": 4.3,
+    "reviews": 261,
+    "description": "High-quality books product suitable for everyday use.",
+    "image": "/images/products/product-23.jpg",
+    "gallery": [
+      "/images/products/product-23-1.jpg",
+      "/images/products/product-23-2.jpg"
+    ],
+    "tags": [
+      "books",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 24,
+    "name": "Beauty Product 24",
+    "category": "Beauty",
+    "brand": "GlowCo",
+    "price": 103.99,
+    "discountPrice": 94.79,
+    "currency": "USD",
+    "stock": 74,
+    "rating": 4.4,
+    "reviews": 268,
+    "description": "High-quality beauty product suitable for everyday use.",
+    "image": "/images/products/product-24.jpg",
+    "gallery": [
+      "/images/products/product-24-1.jpg",
+      "/images/products/product-24-2.jpg"
+    ],
+    "tags": [
+      "beauty",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 25,
+    "name": "Electronics Product 25",
+    "category": "Electronics",
+    "brand": "TechNova",
+    "price": 107.49,
+    "discountPrice": 97.99,
+    "currency": "USD",
+    "stock": 75,
+    "rating": 4.5,
+    "reviews": 275,
+    "description": "High-quality electronics product suitable for everyday use.",
+    "image": "/images/products/product-25.jpg",
+    "gallery": [
+      "/images/products/product-25-1.jpg",
+      "/images/products/product-25-2.jpg"
+    ],
+    "tags": [
+      "electronics",
+      "popular"
+    ],
+    "featured": true
+  },
+  {
+    "id": 26,
+    "name": "Fashion Product 26",
+    "category": "Fashion",
+    "brand": "UrbanWear",
+    "price": 110.99,
+    "discountPrice": 101.19,
+    "currency": "USD",
+    "stock": 76,
+    "rating": 4.6,
+    "reviews": 282,
+    "description": "High-quality fashion product suitable for everyday use.",
+    "image": "/images/products/product-26.jpg",
+    "gallery": [
+      "/images/products/product-26-1.jpg",
+      "/images/products/product-26-2.jpg"
+    ],
+    "tags": [
+      "fashion",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 27,
+    "name": "Home Product 27",
+    "category": "Home",
+    "brand": "HomeEase",
+    "price": 114.49,
+    "discountPrice": 104.39,
+    "currency": "USD",
+    "stock": 77,
+    "rating": 4.7,
+    "reviews": 289,
+    "description": "High-quality home product suitable for everyday use.",
+    "image": "/images/products/product-27.jpg",
+    "gallery": [
+      "/images/products/product-27-1.jpg",
+      "/images/products/product-27-2.jpg"
+    ],
+    "tags": [
+      "home",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 28,
+    "name": "Sports Product 28",
+    "category": "Sports",
+    "brand": "FitPro",
+    "price": 117.99,
+    "discountPrice": 107.59,
+    "currency": "USD",
+    "stock": 78,
+    "rating": 4.8,
+    "reviews": 296,
+    "description": "High-quality sports product suitable for everyday use.",
+    "image": "/images/products/product-28.jpg",
+    "gallery": [
+      "/images/products/product-28-1.jpg",
+      "/images/products/product-28-2.jpg"
+    ],
+    "tags": [
+      "sports",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 29,
+    "name": "Books Product 29",
+    "category": "Books",
+    "brand": "ReadWell",
+    "price": 121.49,
+    "discountPrice": 110.79,
+    "currency": "USD",
+    "stock": 79,
+    "rating": 4.9,
+    "reviews": 303,
+    "description": "High-quality books product suitable for everyday use.",
+    "image": "/images/products/product-29.jpg",
+    "gallery": [
+      "/images/products/product-29-1.jpg",
+      "/images/products/product-29-2.jpg"
+    ],
+    "tags": [
+      "books",
+      "popular"
+    ],
+    "featured": false
+  },
+  {
+    "id": 30,
+    "name": "Beauty Product 30",
+    "category": "Beauty",
+    "brand": "GlowCo",
+    "price": 124.99,
+    "discountPrice": 113.99,
+    "currency": "USD",
+    "stock": 80,
+    "rating": 4.0,
+    "reviews": 310,
+    "description": "High-quality beauty product suitable for everyday use.",
+    "image": "/images/products/product-30.jpg",
+    "gallery": [
+      "/images/products/product-30-1.jpg",
+      "/images/products/product-30-2.jpg"
+    ],
+    "tags": [
+      "beauty",
+      "popular"
+    ],
+    "featured": true
+  }
+]
