@@ -13,7 +13,6 @@ function App() {
 			element: <Main />,
 			children: [
 				{ index: true, element: <Home /> },
-				{ path: 'home', element: <Home /> },
 				{ path: 'shop', element: <Shop /> },
 				{ path: 'manage-inventory', element: <Manageinventory /> },
 				{ path: 'order-review', element: <OrderReview /> },
