@@ -10,7 +10,7 @@ const Home = () => {
 					className="max-w-sm rounded-lg shadow-2xl home-banner m-2 w-1/1 md:w-1/2 "
 				/>
 				<div clasName=" space-y-5 md:space-y-15  ">
-					<p className="py-9 text-orange-500">sale up to 70%</p>
+					<p className="py-9 text-orange-500 text-2xl">sale up to 70%</p>
 					<div>
 						<h1 className="text-3xl md:text-5xl font-bold">
 							NEW COLLECTION FOR FALL

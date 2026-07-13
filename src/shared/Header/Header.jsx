@@ -1,20 +1,21 @@
 import React from 'react'
 import Logo from '../../assets/icon.png'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
 	const menuItems = (
 		<>
 			<li>
-				<a>HOME</a>
+				<NavLink to="/">HOME</NavLink>
 			</li>
 			<li>
-				<a href="/shop">SHOP</a>
+				<NavLink to="/shop">SHOP</NavLink>
 			</li>
 			<li>
-				<a>MANAGE INVENTORY</a>
+				<NavLink to="/manage-inventory">MANAGE INVENTORY</NavLink>
 			</li>
 			<li>
-				<a>ORDER REVIEW</a>
+				<NavLink to="/order-review">ORDER REVIEW</NavLink>
 			</li>
 		</>
 	)
@@ -49,11 +50,14 @@ const Header = () => {
 						</ul>
 					</div>
 
-					<a className="btn btn-ghost text-xl text-orange-500 font-bold normal-case">
+					<NavLink
+						to="/"
+						className="text-2xl text-orange-500 font-bold normal-case cursor-pointer flex items-center"
+					>
 						bangla-
 						<img src={Logo} alt="Logo" className="w-10 h-10 ml-2" />
 						hn
-					</a>
+					</NavLink>
 				</div>
 
 				<div className="navbar-center hidden lg:flex">

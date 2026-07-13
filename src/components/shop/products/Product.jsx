@@ -1,14 +1,18 @@
 import React from 'react'
 
-const Product = ({ product }) => {
+const Product = ({ product, handleAddToCart }) => {
 	const { name, price, seller, ratings, img } = product
+
 	return (
-		<div className="card bg-base-100  w-75     border-1 border-gray-500  shadow-sm">
-			<figure>
+		<div className="card bg-base-100 w-full sm:w-75 border border-gray-500 shadow-sm">
+			<figure className="px-2 pt-2">
 				<img
-					src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-					alt="Shoes"
-					className="rounded-xl p-2 h-71"
+					src={
+						img ||
+						'https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp'
+					}
+					alt={name}
+					className="rounded-xl w-full h-56 sm:h-71 object-cover"
 					onError={(e) => {
 						e.target.onerror = null
 						e.target.src =
@@ -16,15 +20,22 @@ const Product = ({ product }) => {
 					}}
 				/>
 			</figure>
-			<div className="card-body p-2">
-				<h2 className="card-title">{name}</h2>
-				<p className="font-semibold">Price: ${price} </p>
-				<p className="font-semibold">rattings: ${price} </p>
-				<p className="font-semibold">seller: ${price} </p>
+
+			<div className="card-body p-3">
+				<h2 className="card-title text-lg truncate">{name}</h2>
+
+				<p className="font-semibold">Price: ${price}</p>
+
+				<p className="font-semibold">Ratings: ⭐ {ratings}</p>
+
+				<p className="font-semibold truncate">Seller: {seller}</p>
 			</div>
 
-			<button className=" py-3 bg-orange-200 text-black rounded-b-lg hover:bg-orange-300 cursor-pointer font-semibold">
-				Add To Cart
+			<button
+				onClick={() => handleAddToCart(product)}
+				className="py-3 bg-orange-200 text-black rounded-b-lg hover:bg-orange-300 cursor-pointer font-semibold w-full"
+			>
+				Add To Cart 🛒
 			</button>
 		</div>
 	)

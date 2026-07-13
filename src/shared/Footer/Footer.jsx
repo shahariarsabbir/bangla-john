@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../assets/icon.png'
+import { NavLink, Link } from 'react-router-dom'
 
 const Footer = () => {
 	return (
@@ -10,9 +11,8 @@ const Footer = () => {
 					<div>
 						<div className="flex items-center gap-2">
 							<h2 className="text-2xl font-bold text-orange-500">
-								Bangla-
-								<img src={Logo} alt="Logo" className="w-10 h-10" />
-								hn
+								Bangla-john
+								{/* <img src={Logo} alt="Logo" className="w-10 h-10" /> */}
 							</h2>
 						</div>
 
@@ -27,24 +27,24 @@ const Footer = () => {
 						<h3 className="text-lg font-semibold mb-4">Quick Links</h3>
 						<ul className="space-y-2 text-gray-300">
 							<li>
-								<a href="/" className="hover:text-orange-400">
+								<NavLink to="/" className="hover:text-orange-400">
 									Home
-								</a>
+								</NavLink>
 							</li>
 							<li>
-								<a href="/shop" className="hover:text-orange-400">
+								<NavLink to="/shop" className="hover:text-orange-400">
 									Shop
-								</a>
+								</NavLink>
 							</li>
 							<li>
-								<a href="#" className="hover:text-orange-400">
+								<NavLink to="#" className="hover:text-orange-400">
 									Order Review
-								</a>
+								</NavLink>
 							</li>
 							<li>
-								<a href="#" className="hover:text-orange-400">
+								<NavLink to="#" className="hover:text-orange-400">
 									Manage Inventory
-								</a>
+								</NavLink>
 							</li>
 						</ul>
 					</div>
@@ -64,26 +64,26 @@ const Footer = () => {
 						<h3 className="text-lg font-semibold mb-4">Follow Us</h3>
 
 						<div className="flex gap-4">
-							<a
-								href="#"
+							<Link
+								to="#"
 								className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center hover:bg-orange-600 transition"
 							>
 								F
-							</a>
+							</Link>
 
-							<a
-								href="#"
+							<Link
+								to="#"
 								className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center hover:bg-orange-600 transition"
 							>
 								I
-							</a>
+							</Link>
 
-							<a
-								href="#"
+							<Link
+								to="#"
 								className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center hover:bg-orange-600 transition"
 							>
 								X
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

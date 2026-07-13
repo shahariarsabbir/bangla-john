@@ -1,27 +1,38 @@
 import React from 'react'
+import CartContent from './CartContent'
 
-const Cart = () => {
+const Cart = ({ cart }) => {
 	return (
-		<div className="h-full flex items-center justify-center p-10">
-			<div className="w-full">
-				<h1 className="text-center font-semibold text-2xl mb-6">
-					Order Summary
-				</h1>
+		<div className="drawer drawer-end lg:hidden">
+			<input id="cart-drawer" type="checkbox" className="drawer-toggle" />
 
-				<p className="text-sm text-[#2A414F] my-3">Selected Items:</p>
-				<p className="text-sm text-[#2A414F] my-3">Total Price:</p>
-				<p className="text-sm text-[#2A414F] my-3">Total Shipping Charge:</p>
-				<p className="text-sm text-[#2A414F] my-3">Tax:</p>
+			{/* Mobile Cart Button */}
+			<div className="drawer-content">
+				<div className="fixed bottom-5 right-5 z-40">
+					<label
+						htmlFor="cart-drawer"
+						className="btn bg-orange-500 hover:bg-orange-600 text-white rounded-full px-6 shadow-lg cursor-pointer"
+					>
+						🛒 Cart
+					</label>
+				</div>
+			</div>
 
-				<h3 className="text-xl font-semibold my-3">Grand Total:</h3>
+			{/* Drawer */}
+			<div className="drawer-side z-50">
+				<label htmlFor="cart-drawer" className="drawer-overlay"></label>
 
-				<button className="w-full mt-10 rounded-lg bg-red-500 p-4 text-white">
-					Clear Cart
-				</button>
+				<div className="bg-white w-[85%] sm:w-96 min-h-screen p-5 relative shadow-xl">
+					{/* Close Button */}
+					<label
+						htmlFor="cart-drawer"
+						className="btn btn-sm btn-circle absolute right-4 top-4"
+					>
+						✕
+					</label>
 
-				<button className="w-full mt-4 rounded-lg bg-orange-500 p-4 text-white">
-					Review Order
-				</button>
+					<CartContent cart={cart} />
+				</div>
 			</div>
 		</div>
 	)
