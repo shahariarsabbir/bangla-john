@@ -28,9 +28,7 @@ const Router = createBrowserRouter([
 				path: 'order-review',
 				element: <OrderReview />,
 				loader: async () => {
-					const response = await fetch(
-						`${import.meta.env.BASE_URL}product.json`,
-					)
+					const response = await fetch('/product.json')
 
 					if (!response.ok) {
 						throw new Error('Failed to load products')
